@@ -1,0 +1,50 @@
+h1 {
+    font-family: 'Bungee Spice';
+    color: black;
+}
+
+tr > th {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.html-cheatsheet-table {
+    border-collapse: collapse;
+    text-align: left;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px #ff4400;
+    margin: 25px 0;
+    font-size: 0.9em;
+}
+
+.html-cheatsheet-table thead tr {
+    background-color: #ff4400;
+    color: #fff;
+    font-weight: bold;
+}
+
+.html-tag-column-data {
+    font-family: monospace;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.html-cheatsheet-table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.html-cheatsheet-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.html-cheatsheet-table tbody tr:last-of-type {
+    border-bottom: 2px solid #ff4400;
+
+}
+
+.html-description {
+    border-left: 1px solid black;
+    padding: 10px;
+}
